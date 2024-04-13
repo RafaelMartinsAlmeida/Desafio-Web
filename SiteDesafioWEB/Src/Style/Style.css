@@ -1,0 +1,83 @@
+
+header {
+    background-image: url(/SiteDesafioWEB/Src/assets/img/pexels-pixabay-33109.jpg);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+body {
+    background-color: #666;
+    color: #fff;
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+    background-image: url(/SiteDesafioWEB/Src/assets/img/pexels-roberto-nickson-2559941.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+nav {
+    background-color: #666;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+    max-width: 100%;
+}
+
+/* Mobile */
+@media screen and (max-width: 400px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        margin: 0px;
+    }
+}
+/* Small tablets */
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        margin: 5px;
+    }
+    nav a {
+        margin: 5px;
+    }
+} 
+@media (min-width: 768px) and (max-width: 991px) {
+    /* styles */
+}
+
+/* Large tablets/laptops */  
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* styles */
+}
+
+/* Desktops */  
+@media (min-width: 1200px) and (max-width: 1919px) {
+    /* styles */
+}
+
+/* Extra large screens */  
+@media (min-width: 1920px) {
+    /* styles */
+}
+
+
